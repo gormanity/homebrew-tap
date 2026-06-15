@@ -1,8 +1,8 @@
 cask "ytm-menu-bar" do
-  version "0.0.6"
-  sha256 "7db8f2e3de5df696bc6836c1aecc6055ae7d548142441367cf92d1ea0b1aa7ec"
+  version "0.0.7"
+  sha256 "9841829919230846ef2a5072af13943b0459cd99ead42cef551ef909da5e839b"
 
-  url "https://github.com/gormanity/ytm-enhancer/releases/download/menu-bar-v0.0.6/YTM-Menu-Bar-Homebrew-0.0.6.pkg"
+  url "https://github.com/gormanity/ytm-enhancer/releases/download/menu-bar-v0.0.7/YTM-Menu-Bar-Homebrew-0.0.7.pkg"
   name "YTM Menu Bar"
   desc "Menu bar playback controls for YouTube Music through YTM Enhancer"
   homepage "https://github.com/gormanity/ytm-enhancer"
