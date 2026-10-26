@@ -26,6 +26,7 @@ jobs:
           tap_parent="$(brew --repository)/Library/Taps/gormanity"
           mkdir -p "$tap_parent"
           ln -s "$GITHUB_WORKSPACE" "$tap_parent/homebrew-tap"
+          brew trust gormanity/tap
       - name: Check cask style
         run: brew style Casks
       - name: Audit all casks and their published artifacts
